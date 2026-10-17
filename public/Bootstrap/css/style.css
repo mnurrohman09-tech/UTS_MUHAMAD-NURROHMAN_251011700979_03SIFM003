@@ -1,0 +1,51 @@
+/* Custom Style untuk Event Musik */
+
+/* Pengaturan Hero / Header */
+.header-title {
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.header-subtitle {
+    color: #6c757d;
+}
+
+/* Card Event */
+.card-event {
+    border: none;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-event:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card-event-img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Detail Page */
+.detail-img {
+    object-fit: cover;
+    min-height: 320px;
+}
+
+.detail-title {
+    font-weight: 700;
+    color: #212529;
+}
+
+/* Custom Badges */
+.badge-date {
+    background-color: #495057;
+    color: #ffffff;
+    padding: 0.5em 0.75em;
+}
+
+.badge-time {
+    background-color: #0dcaf0;
+    color: #000000;
+    padding: 0.5em 0.75em;
+}
